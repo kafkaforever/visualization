@@ -34,7 +34,7 @@ sns.histplot(df['Age'].dropna(), bins='auto', ax=axes[0, 0], color='skyblue')
 axes[0, 0].set_title('Age Distribution (Seaborn)')
 
 # Plot 2: Sex distribution with seaborn
-sns.countplot(x='Sex', data=df, ax=axes[0, 1], palette=['lightblue', 'lightcoral'])
+sns.countplot(x='Sex', data=df, ax=axes[0, 1], palette=['gray', 'darkgoldenrod'])
 axes[0, 1].set_title('Sex Distribution (Seaborn)')
 
 # Plot 3: Survival by sex with seaborn
